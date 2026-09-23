@@ -29,7 +29,7 @@
 % (see ClassicThesis.pdf for more information):
 % ****************************************************************************************************
 \PassOptionsToPackage{
-  drafting=true,    % print version information on the bottom of the pages
+  drafting=false,   % hide version information on the bottom of the pages
   tocaligned=false, % the left column of the toc will be aligned (no indentation)
   dottedtoc=false,  % page numbers in ToC flushed right
   eulerchapternumbers=false, % use AMS Euler for chapter font (otherwise Palatino)
@@ -184,6 +184,13 @@
 % ********************************************************************
 \PassOptionsToPackage{hyperfootnotes=false}{hyperref}
 \usepackage{classicthesis}
+
+% Keep full running titles within the text width, wrapping long titles.
+\setlength{\headheight}{27pt}
+\lehead{\llap{\small\pagemark\kern2em}%
+  \parbox[b]{\textwidth}{\raggedright\headmark}}
+\rohead{\parbox[b]{\textwidth}{\raggedleft\headmark}%
+  \rlap{\small\kern2em\pagemark}}
 % Match citations to the maroon used for URLs in margin footnotes.
 \colorlet{CTcitation}{CTurl}
 % Allow full printed URLs to wrap automatically, including in narrow margin notes.

@@ -92,7 +92,7 @@
     <requires type="editable">
       <file>Bibliography.bib</file>
       <file>papers/MRL/custom.bib</file>
-      <file>AMiede_Publications.bib</file>
+      <file>ThesisWorks.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
@@ -120,7 +120,7 @@
       <file>ClassicThesis-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>AMiede_Publications.bib</file>
+      <file>ThesisWorks.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

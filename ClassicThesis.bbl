@@ -7702,37 +7702,6 @@
     \field{year}{2026}
   \endentry
 
-  \entry{knuth:1974}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=KDE}{%
-         family={Knuth},
-         familyi={K\bibinitperiod},
-         given={Donald\bibnamedelima E.},
-         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {ACM Press}%
-    }
-    \strng{namehash}{KDE1}
-    \strng{fullhash}{KDE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1974}
-    \field{labeldatesource}{}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{number}{12}
-    \field{pages}{667\bibrangedash 673}
-    \field{title}{{C}omputer {P}rogramming as an {A}rt}
-    \field{volume}{17}
-    \list{location}{1}{%
-      {New York, NY, USA}%
-    }
-    \field{journaltitle}{Communications of the ACM}
-    \field{year}{1974}
-  \endentry
-
   \entry{kovaleva-etal-2019-revealing}{inproceedings}{}{}
     \name{author}{4}{}{%
       {{hash=KO}{%

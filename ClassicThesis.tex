@@ -48,7 +48,7 @@
 %*******************************************************
 \addbibresource{Bibliography.bib}
 \addbibresource{papers/MRL/custom.bib}
-\addbibresource[label=ownpubs]{AMiede_Publications.bib}
+\addbibresource[label=ownpubs]{ThesisWorks.bib}
 
 %********************************************************************
 % Hyphenation
@@ -71,7 +71,6 @@
 %*******************************************************
 \include{FrontBackmatter/Titlepage}
 %\include{FrontBackmatter/Titleback}
-\cleardoublepage\include{FrontBackmatter/Dedication}
 %\cleardoublepage\include{FrontBackmatter/Foreword}
 \cleardoublepage\include{FrontBackmatter/Abstract}
 \cleardoublepage\include{FrontBackmatter/Publications}
@@ -86,16 +85,37 @@
 %\setcounter{page}{90}
 % use \cleardoublepage here to avoid problems with pdfbookmark
 \cleardoublepage
+\ctparttext{%
+\begin{flushright}{\slshape
+    Le degré du caméléon est appelé vestibule royal; \\
+    en effet tout s'y rencontre. \\
+    Certains viennent donner le mal et son espèce. \\
+    Certains viennent quémander, d'autres sont là pour offrir. \\
+    Certains viennent mentir, d'autres parce qu'on a menti sur eux.} \\ \medskip
+    --- Hampâté Bâ, Amadou. (1969). \\
+    \mbox{\textit{Kaïdara : récit initiatique peul}.}
+\end{flushright}}
 \part{Introduction}\label{pt:manual}
 \include{Chapters/Chapter01}
 \include{Chapters/Chapter02_EfficientLanguageModels}
 \cleardoublepage
-\ctparttext{You can put some informational part preamble text here.
-Illo principalmente su nos. Non message \emph{occidental} angloromanic
-da. Debitas effortio simplificate sia se, auxiliar summarios da que,
-se avantiate publicationes via. Pan in terra summarios, capital
-interlingua se que. Al via multo esser specimen, campo responder que
-da. Le usate medical addresses pro, europa origine sanctificate nos se.}
+\ctparttext{%
+\begin{flushright}{\slshape
+    Ce que signifient quelques traits du caméléon \\
+    en diurne et nocturne, Hammadi, le voici. \\
+    Changer de couleur, signifie en diurne \\
+    qu'on est un homme sociable et agréable \\
+    plein de tact, patient, commode à vivre \\
+    et capable de s'adapter à toute circonstance, \\
+    de l'accepter telle quelle et d'où qu'elle vienne ; \\
+    être sociable et agréer les us et coutumes d'autrui. \\
+    Dans le sens nocturne, cela devient hypocrisie, \\
+    manque de constance et changement instable \\
+    au point d'être impossible avec ses compagnons \\
+    et de n'avoir ni personnalité ni dignité.} \\ \medskip
+    --- Hampâté Bâ, Amadou. (1969). \\
+    \mbox{\textit{Kaïdara : récit initiatique peul}.}
+\end{flushright}}
 \part{Compression of Transformer Models}\label{pt:compression}
 \include{Chapters/Chapter02}
 %\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
@@ -104,23 +124,47 @@ da. Le usate medical addresses pro, europa origine sanctificate nos se.}
 % ********************************************************************
 % Backmatter
 %*******************************************************
+\ctparttext{%
+\begin{flushright}{\slshape
+    Le sens bénéfique de son [le caméléon] corps compressé, \\
+    c'est s'appliquer à ne pas être encombrant. \\
+    Au sens nocturne, c'est l'homme que l'on piétine. \\
+    Le dos orné d'une crête symbolise la vigilance \\
+    tel est son sens en diurne. \\
+    En nocturne, c'est bomber la poitrine \\
+    être avide de flatterie, plein d'orgueil et de boniments. \\
+    La queue préhensile du caméléon est la prudence, \\
+    une défense camouflée en un lieu imprévisible. \\
+    En nocturne c'est un piège que le perfide \\
+    recèle et qu'il traîne par devers lui} \\ \medskip
+    --- Hampâté Bâ, Amadou. (1969). \\
+    \mbox{\textit{Kaïdara : récit initiatique peul}.}
+\end{flushright}}
 \part{Activation Sparsity of Transformer Models}\label{pt:activation}
 \include{Chapters/Chapter04}
 \include{Chapters/Chapter05}
+\ctparttext{%
+\begin{flushright}{\slshape
+    « Ce que tu viens d'apprendre, retiens-le \\
+    toi qui sais que la science par essence \\
+    vaut plus que l'ambre et le corail \\
+    et plus cher que l'or pur. \\
+    Tu as longtemps médité et longuement cherché. \\
+    Qui s'applique à chercher finit par trouver. \\
+    Tu n'avais vu que les signes du phénomène; \\
+    et maintenant tu as le sens du premier secret \\
+    au pays des génies-nains qui appartient à Kaydara \\
+    le lointain, le bien proche Kaydara ».} \\ \medskip
+    --- Hampâté Bâ, Amadou. (1969). \\
+    \mbox{\textit{Kaïdara : récit initiatique peul}.}
+\end{flushright}}
 \part{Conclusion and Future Work}\label{pt:conclusion}
 \include{Chapters/ConclusionAndFutureWork}
-\appendix
-%\renewcommand{\thechapter}{\alph{chapter}}
-\cleardoublepage
-\part{Appendix}
-\include{Chapters/Chapter0A}
 %********************************************************************
 % Other Stuff in the Back
 %*******************************************************
 \pdfbookmark[-1]{Back Matter}{back} % Dummy part bookmark for back matter
 \cleardoublepage\include{FrontBackmatter/Bibliography}
-\cleardoublepage\include{FrontBackmatter/Declaration}
-\cleardoublepage\include{FrontBackmatter/Colophon}
 % ********************************************************************
 % Game Over: Restore, Restart, or Quit?
 %*******************************************************

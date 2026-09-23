@@ -3,7 +3,6 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: ClassicThesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
-A level-1 auxiliary file: FrontBackmatter/Dedication.aux
 A level-1 auxiliary file: FrontBackmatter/Abstract.aux
 A level-1 auxiliary file: FrontBackmatter/Publications.aux
 A level-1 auxiliary file: FrontBackmatter/Acknowledgments.aux
@@ -15,10 +14,7 @@ A level-1 auxiliary file: Chapters/Chapter03.aux
 A level-1 auxiliary file: Chapters/Chapter04.aux
 A level-1 auxiliary file: Chapters/Chapter05.aux
 A level-1 auxiliary file: Chapters/ConclusionAndFutureWork.aux
-A level-1 auxiliary file: Chapters/Chapter0A.aux
 A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
-A level-1 auxiliary file: FrontBackmatter/Declaration.aux
-A level-1 auxiliary file: FrontBackmatter/Colophon.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -34,12 +30,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 30200 items from 5000.
+Reallocated field_info (elt_size=4) to 30060 items from 5000.
 Database file #1: ClassicThesis-blx.bib
 Database file #2: Bibliography.bib
 Database file #3: papers/MRL/custom.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Database file #4: AMiede_Publications.bib
+Database file #4: ThesisWorks.bib
 Biblatex version: 3.21
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Warning--you've exceeded 500, the entry-string-size, for entry grattafiori2024llama3herdmodels
@@ -49,45 +45,45 @@ Warning--you've exceeded 500, the entry-string-size, for entry grattafiori2024ll
 while executing--line 2728 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 180 entries,
+You've used 179 entries,
             6402 wiz_defined-function locations,
-            2173 strings with 79140 characters,
-and the built_in function-call counts, 4620205 in all, are:
-= -- 441207
-> -- 37750
-< -- 7204
-+ -- 186685
-- -- 18959
-* -- 335730
-:= -- 640131
+            2160 strings with 78894 characters,
+and the built_in function-call counts, 4613844 in all, are:
+= -- 440725
+> -- 37646
+< -- 7159
++ -- 186568
+- -- 18935
+* -- 335280
+:= -- 639580
 add.period$ -- 0
-call.type$ -- 180
-change.case$ -- 179
+call.type$ -- 179
+change.case$ -- 178
 chr.to.int$ -- 135
-cite$ -- 358
-duplicate$ -- 524710
-empty$ -- 340818
-format.name$ -- 33149
-if$ -- 856320
+cite$ -- 356
+duplicate$ -- 524103
+empty$ -- 340198
+format.name$ -- 33100
+if$ -- 854928
 int.to.chr$ -- 0
-int.to.str$ -- 486
+int.to.str$ -- 482
 missing$ -- 0
-newline$ -- 17301
-num.names$ -- 8657
-pop$ -- 101451
+newline$ -- 17270
+num.names$ -- 8586
+pop$ -- 101124
 preamble$ -- 1
-purify$ -- 7300
+purify$ -- 7261
 quote$ -- 0
-skip$ -- 47349
+skip$ -- 47077
 stack$ -- 0
-substring$ -- 842192
-swap$ -- 56219
-text.length$ -- 8254
-text.prefix$ -- 181
+substring$ -- 841336
+swap$ -- 56045
+text.length$ -- 8233
+text.prefix$ -- 180
 top$ -- 1
-type$ -- 6108
+type$ -- 6074
 warning$ -- 0
-while$ -- 84068
+while$ -- 84012
 width$ -- 0
-write$ -- 17122
+write$ -- 17092
 (There were 2 warnings)

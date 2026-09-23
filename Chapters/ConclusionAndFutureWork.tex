@@ -74,8 +74,8 @@ scaling fine-grained sparsity, and approaches such as LatentMoE
 it. Maybe this will no longer be a problem in a few years, if the next generation
 of hardware offers individual GPUs with terabytes of VRAM and the capacity to train
 LLMs with trillions of parameters on a single device.
-But beyond the engineering issues, TopK-based
-routing also faces the stability problems discussed earlier, including
+But beyond the engineering issues, TopK-based routing also faces 
+the stability problems discussed earlier, including
 dead experts and expert collapse. Rather than putting patches everywhere
 to keep TopK-based sparsity working, we believe it can be beneficial to fundamentally
 revisit how sparsity is learned. We believe that such approaches must be adaptive, communication-efficient,
