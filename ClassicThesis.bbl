@@ -15169,7 +15169,6 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2024}
-    \field{extradate}{1}
     \field{labeldatesource}{}
     \field{sortinit}{W}
     \field{sortinithash}{W}
@@ -15183,48 +15182,6 @@
     \endverb
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.LG}
-    \field{year}{2024}
-  \endentry
-
-  \entry{svdllm}{misc}{}{}
-    \name{author}{4}{}{%
-      {{hash=WX}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Xin},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=ZY}{%
-         family={Zheng},
-         familyi={Z\bibinitperiod},
-         given={Yu},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=WZ}{%
-         family={Wan},
-         familyi={W\bibinitperiod},
-         given={Zhongwei},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=ZM}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Mi},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WX+1}
-    \strng{fullhash}{WXZYWZZM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{extradate}{2}
-    \field{labeldatesource}{}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{note}{arXiv preprint arXiv:2403.07378}
-    \field{title}{SVD-LLM: Truncation-aware Singular Value Decomposition for
-  Large Language Model Compression}
     \field{year}{2024}
   \endentry
 

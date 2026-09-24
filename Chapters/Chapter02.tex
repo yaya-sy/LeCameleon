@@ -183,13 +183,13 @@ Assuming a target compression rate $N$, we consider three simple strategies: \te
     \label{fig:strategies}
 \end{figure}
 
-\subsection{Uniform Weights Compression}
+\paragraph{Uniform Weights Compression}
 This approach removes $N$\% of the parameters from each weight matrix in the model. It makes no assumptions about the importance of different layers but is costly because it requires computing the low-rank approximation of all weight matrices. It also requires training all the model's layers, increasing GPU memory and computation requirements through forward and backward passes across the entire model.
 
-\subsection{Top Layers First Compression}
+\paragraph{Top Layers First Compression}
 This approach removes $N$\% of the parameters from the model by prioritizing the top layers. This is more efficient than the uniform approach as it requires computing the low-rank approximation of fewer weight matrices and training fewer layers. However, it still requires loading the full model in GPU memory and performing a forward pass through all the layers, although only a subset is compressed and trained.
 
-\subsection{Bottom Layers First Compression}
+\paragraph{Bottom Layers First Compression}
 This approach removes $N$\% of the parameters from the model by prioritizing the bottom layers. Compared to the previous two approaches, this one is more efficient as it requires computing the low-rank approximation of fewer weight matrices and training fewer layers. It also allows us to load only a subset of the model into GPU memory and run forward passes through only the first compressed layers, which is not the case for the previous two approaches. As we will show, this approach can compress large models that could not fit into GPU memory. Algorithm~\ref{alg:two} describes the bottom-first compression approach.
 
 \begin{algorithm}[!ht]
@@ -228,20 +228,18 @@ The approach is straightforward to implement. Figure~\ref{fig:pseudocode_impl} s
 \section{Experiments on Transformers}
 \label{sec:xp}
 \subsection{Setup}
-\subsubsection{Models.}
+\paragraph{Models.}
 We evaluate our method on several Transformer-based LLMs: a 47B Mixture-of-Experts model (Mixtral-8x7B-v0.1), medium-sized LLMs (Mistral-v0.1 7B and Phi-3 14B), and a smaller model (Phi-2 3B).
 
-\subsubsection{Data.}
+\paragraph{Data.}
 For calibration, we use 13 million tokens randomly sampled from Slim-Orca \citep{SlimOrca}, an open-source replication of Orca \citep{mukherjee2023orca}. In preliminary experiments, we also tested other datasets such as RedPajama \citep{together2023redpajama}, but observed better results with instruction data.
 
-\subsubsection{Implementation Details.}
+\paragraph{Implementation Details.}
 We implement our approach using version 4.44.2 of the Hugging Face Transformers library~\citep{wolf2020huggingfaces} and PyTorch version 2.4.0+cu121. For all experiments, we use the AdamW optimizer with a learning rate of $8.6e^{-4}$. Note that since our approach is local, each student layer has its own optimizer. This also allows us to perform local gradient updates and avoid storing the entire large PyTorch computation graph in memory. All experiments were conducted on a single A100 GPU, regardless of the model.
-
 When compressing the models using Algorithm~\ref{alg:two}, we set a minimum rank of $k=1024$ for all models except Phi-3 14B, for which we found higher ranks work well, so we set $k=1536$. For all models, we set $m=256$ for the increment to generate ranks.
-
 We apply the Teacher+Student loss, as illustrated in Figure~\ref{fig:distillation_joint}, to all models, as we found that this loss converges faster and generally performs better. Additionally, we use the bottom-first compression strategy, which proved to be effective and less memory-intensive than other strategies.
 
-\subsubsection{Evaluation.}
+\paragraph{Evaluation.}
 To measure inference speed, we evaluate \textit{prefill throughput} by timing a batch of prompts passed through the entire model and reporting the results in tokens per second. Using lm-evaluation-harness \citep{eval-harness}, we evaluate zero-shot performance on 9 downstream tasks: TruthfulQA (TruQA) \citep{lin-etal-2022-truthfulqa}, Social IQA (SIQA) \citep{sap2019social}, LogiQA \citep{liu2020logiqa}, WinoGrande (WinoG) \citep{sakaguchi2019winogrande}, ARC Easy (ARC-E) \citep{arc}, ARC Challenge (ARC-C) \citep{arc}, BoolQ \citep{boolq}, PIQA \citep{piqa}, and OpenBookQA (OBQA) \citep{obqa}. We compare non-compressed (0\%) and compressed variants.
 We provide in Table~\ref{tab:task_metric_map} the metrics we used to evaluate the models in Section \ref{sec:xp}.
 \begin{table}[!ht]
@@ -716,7 +714,9 @@ The Civil War had many consequences, both positive and negative. Some positive c
 \end{table*}
 
 \subsection{Comparisons.}
-Table~\ref{tab:comparisons} shows that our approach outperforms SliceGPT \citep{ashkboos_slicegpt_2024}, a one-shot compression method for LLMs. Our approach also compares favorably with SVD-LLM \citep{svdllm} in Section \ref{ssec:svdllm}.
+Table~\ref{tab:comparisons} shows that our approach outperforms SliceGPT \citep{ashkboos_slicegpt_2024}, a one-shot compression method for LLMs.
+SliceGPT reports a ``slicing'' proportion, which does not directly correspond to the percentage reduction in the model's parameter count.
+For example, a 30\% slicing proportion for Phi-2 3B corresponds to a 24\% reduction in its parameter count.
 
 \subsection{Can this approach work for low-resource and under-represented languages?}
 \label{sec:hausa-ch2}
@@ -751,10 +751,10 @@ We used a rank of 1024, compressing the model by 30\%. Then, we applied lightwei
 
 \section{Limitations}
 
-\subsection{Compatibility with quantization:}
+\paragraph{Compatibility with quantization:}
 Our pruning/compression method is theoretically complementary to quantization, since a model compressed with our approach can be further quantized. However, each step removes information, making it crucial to balance these approaches optimally. Addressing this challenge is essential for large-scale adoption in LLM libraries but is beyond the scope of this work and warrants a dedicated study.
 
-\subsection{Compromise between specificity and generality:}
+\paragraph{Compromise between specificity and generality:}
 Efficient LLM compression requires trade-offs between speed and generality. We prioritize generality over raw speed, avoiding GPU-specific kernels as used in semi-structured sparsity approaches. Efficiency also ties to carbon cost: our method works on CPUs as well as on
 GPUs, enabling the reuse of older hardware and reducing reliance on GPUs with higher carbon costs.
 
@@ -763,9 +763,3 @@ We propose a new efficient compression method that
 requires far less calibration data than most state-of-the-art approaches
 and provides competitive performance for various models (dense and MoE Transformers, Mamba) and modalities (text, speech).
 We show that combining SVD initialization with a joint Teacher and Student loss for local distillation enables fast convergence, and a bottom-up layer selection approach enables cost-effective compression.
-
-\section{Open Questions}
-\subsection{If the weights are full rank, why still compress them?}
-Our main approach to distill activations into compressed weights is based on the observation that activations are low-rank while the weights are full-rank. However, we still compress the weights and not the activations. The fact that activations are low-rank should be a motivation to compress them. Later we will discuss activation compression methods such as Matryoshka Representation Learning (MRL) and activation sparsity.
-
-\subsection{Can an LLM be pre-trained from scratch with low-rank weights?}

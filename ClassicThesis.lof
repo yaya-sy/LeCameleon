@@ -44,29 +44,29 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Student}}}{53}{subfigure.3.2}%
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Teacher+Student}}}{53}{subfigure.3.3}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Illustration of 20\% compression when using the three strategies: bottom, top, and uniform. Green boxes are compressed layers with low-rank matrices while gray boxes are non-compressed ones. $l_{1}$, $l_{2}$, ..., $l_{n-1}$, $l_{n}$ are the layer indices.}}{55}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of a PyTorch implementation of our approach using the Teacher-only distillation strategy.}}{57}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \textbf {Higher ranks generally give better results.} Mean accuracy over our test benchmarks as a function of the minimum rank $k$ in Algorithm~\ref {alg:two}}}{63}{figure.caption.58}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces \textbf {SVD initialization improves sample efficiency}. Convergence when initializing low-rank weights randomly (without SVD) or with SVD.}}{64}{figure.caption.59}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \textbf {The joint loss generally converges better}. Convergence of the three losses illustrated in Figure~\ref {fig:distillaton}, evaluated using perplexity on the Wikitext2 test corpus during distillation.}}{64}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of a PyTorch implementation of our approach using the Teacher-only distillation strategy.}}{57}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textbf {Higher ranks generally give better results.} Mean accuracy over our test benchmarks as a function of the minimum rank $k$ in Algorithm~\ref {alg:two}}}{63}{figure.caption.65}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textbf {SVD initialization improves sample efficiency}. Convergence when initializing low-rank weights randomly (without SVD) or with SVD.}}{64}{figure.caption.66}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \textbf {The joint loss generally converges better}. Convergence of the three losses illustrated in Figure~\ref {fig:distillaton}, evaluated using perplexity on the Wikitext2 test corpus during distillation.}}{64}{figure.caption.67}%
 \ttl@tocsep 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Layer merging in the Whisper decoder: each student layer is a weighted average of two consecutive teacher layers, then trained with cross-entropy and knowledge distillation.}}{74}{figure.caption.71}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Head shearing of the Whisper embedding through low-rank decomposition. The decomposition is activation-aware because the low-rank weights are subsequently feature-distilled.}}{76}{figure.caption.77}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Choice of \(\alpha \) and \(\beta \). Bayesian hyperparameter search indicates that the main constraint is to keep the lower-layer weight \(\alpha \) small.}}{79}{figure.caption.86}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Activation similarities between all decoder-layer pairs. Consecutive layers tend to be more similar, suggesting that they can be merged.}}{80}{figure.caption.88}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Training loss of Qwen2.5-0.5B on the smol-smoltalk corpus, comparing a 75\% reduction in embedding parameters with the uncompressed baseline.}}{81}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Layer merging in the Whisper decoder: each student layer is a weighted average of two consecutive teacher layers, then trained with cross-entropy and knowledge distillation.}}{74}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Head shearing of the Whisper embedding through low-rank decomposition. The decomposition is activation-aware because the low-rank weights are subsequently feature-distilled.}}{76}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Choice of \(\alpha \) and \(\beta \). Bayesian hyperparameter search indicates that the main constraint is to keep the lower-layer weight \(\alpha \) small.}}{79}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Activation similarities between all decoder-layer pairs. Consecutive layers tend to be more similar, suggesting that they can be merged.}}{80}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Training loss of Qwen2.5-0.5B on the smol-smoltalk corpus, comparing a 75\% reduction in embedding parameters with the uncompressed baseline.}}{81}{figure.caption.101}%
 \ttl@tocsep 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Wolof speech collection and filtering}}{87}{figure.caption.93}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Wolof Speech LLM architecture}}{90}{figure.caption.96}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Speech data processing pipeline}}{93}{figure.caption.99}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces \textbf {Late-fusion and dual architectures.} Late fusion projects downsampled HuBERT features into the LLM embedding space and concatenates them with prompt embeddings. The dual architecture pools speech features and uses dimension-specific projections.}}{95}{figure.caption.106}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Dimensions needed for an energy ratio}}{99}{figure.caption.111}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Dimensions needed for full energy.}}{99}{figure.caption.112}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Recall by embedding dimension and number of examples.}}{100}{figure.caption.113}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Indexing, storage, query-time, and accuracy trade-offs across dimensions.}}{101}{figure.caption.114}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Wolof speech collection and filtering}}{87}{figure.caption.102}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Wolof Speech LLM architecture}}{90}{figure.caption.105}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Speech data processing pipeline}}{93}{figure.caption.108}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces \textbf {Late-fusion and dual architectures.} Late fusion projects downsampled HuBERT features into the LLM embedding space and concatenates them with prompt embeddings. The dual architecture pools speech features and uses dimension-specific projections.}}{95}{figure.caption.115}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Dimensions needed for an energy ratio}}{99}{figure.caption.120}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Dimensions needed for full energy.}}{99}{figure.caption.121}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Recall by embedding dimension and number of examples.}}{100}{figure.caption.122}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Indexing, storage, query-time, and accuracy trade-offs across dimensions.}}{101}{figure.caption.123}%
 \ttl@tocsep 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Effective intermediate dimension across models}}{107}{figure.caption.120}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Effective dimension and relative expert width}}{107}{figure.caption.121}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Training dynamics of the adaptive ZoN gate.}}{113}{figure.caption.128}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Effective intermediate dimension across models}}{107}{figure.caption.129}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Effective dimension and relative expert width}}{107}{figure.caption.130}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Training dynamics of the adaptive ZoN gate.}}{113}{figure.caption.137}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Target sparsity schedule with the delay and linear ramp phases.}}}{113}{subfigure.3.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The convergence of the expected sparsity.}}}{113}{subfigure.3.2}%
 \ttl@tocsep 

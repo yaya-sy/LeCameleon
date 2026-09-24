@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.8)  23 SEP 2026 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.8)  24 SEP 2026 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2134,25 +2134,25 @@ on []
 
 
 ]
-Overfull \hbox (22.44344pt too wide) in paragraph at lines 124--124
+Overfull \hbox (22.44344pt too wide) in paragraph at lines 121--121
  [][] []\T1/pplj/m/n/10.95 (-20) Wolof-Specific Hu-BERT Con-tin-ued Pre-train-i
 ng []  
  []
 
 
-Overfull \hbox (12.4649pt too wide) in paragraph at lines 127--127
+Overfull \hbox (12.4649pt too wide) in paragraph at lines 124--124
  [][] []\T1/pplj/m/n/10.95 (-20) Supervised ASR Fine-Tuning and Eval-u-a-tion [
 ]  
  []
 
 
-Overfull \hbox (23.2944pt too wide) in paragraph at lines 130--130
+Overfull \hbox (23.2944pt too wide) in paragraph at lines 127--127
  [][] []\T1/pplj/m/n/10.95 (-20) From a Speech En-coder to a Wolof Speech LLM [
 ]  
  []
 
 [10]
-Overfull \hbox (3.75697pt too wide) in paragraph at lines 166--166
+Overfull \hbox (3.75697pt too wide) in paragraph at lines 163--163
  [][] []\T1/pplj/m/n/10.95 (-20) Transformer MLPs as Key-Value Mem-o-ries []  
  []
 
@@ -2373,7 +2373,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 [5]
-<figures/transformer.pdf, id=708, 344.31712pt x 415.5525pt>
+<figures/transformer.pdf, id=692, 344.31712pt x 415.5525pt>
 File: figures/transformer.pdf Graphic file (type pdf)
 <use figures/transformer.pdf>
 Package pdftex.def Info: figures/transformer.pdf  used on input line 152.
@@ -2387,7 +2387,7 @@ File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8] [9]
-<figures/embedding_parameter_ratio.pdf, id=843, 1174.87308pt x 666.65627pt>
+<figures/embedding_parameter_ratio.pdf, id=827, 1174.87308pt x 666.65627pt>
 File: figures/embedding_parameter_ratio.pdf Graphic file (type pdf)
 <use figures/embedding_parameter_ratio.pdf>
 Package pdftex.def Info: figures/embedding_parameter_ratio.pdf  used on input l
@@ -2406,12 +2406,12 @@ m
  []
 
 [10]
-<figures/figure6_accuracy.png, id=857, 416.2752pt x 298.9569pt>
+<figures/figure6_accuracy.png, id=841, 416.2752pt x 298.9569pt>
 File: figures/figure6_accuracy.png Graphic file (type png)
 <use figures/figure6_accuracy.png>
 Package pdftex.def Info: figures/figure6_accuracy.png  used on input line 469.
 (pdftex.def)             Requested size: 161.27856pt x 115.82634pt.
-<figures/figure6_cross_entropy.png, id=859, 420.3705pt x 298.9569pt>
+<figures/figure6_cross_entropy.png, id=843, 420.3705pt x 298.9569pt>
 File: figures/figure6_cross_entropy.png Graphic file (type png)
 <use figures/figure6_cross_entropy.png>
 Package pdftex.def Info: figures/figure6_cross_entropy.png  used on input line 
@@ -2419,7 +2419,7 @@ Package pdftex.def Info: figures/figure6_cross_entropy.png  used on input line
 (pdftex.def)             Requested size: 161.27856pt x 114.6996pt.
  [11 <./figures/embedding_parameter_ratio.pdf>] [12 <./figures/figure6_accuracy
 .png> <./figures/figure6_cross_entropy.png>]
-<figures/wei_emergent_abilities_figure.pdf, id=939, 472.76625pt x 321.2pt>
+<figures/wei_emergent_abilities_figure.pdf, id=923, 472.76625pt x 321.2pt>
 File: figures/wei_emergent_abilities_figure.pdf Graphic file (type pdf)
 <use figures/wei_emergent_abilities_figure.pdf>
 Package pdftex.def Info: figures/wei_emergent_abilities_figure.pdf  used on inp
@@ -2458,7 +2458,7 @@ Overfull \hbox (1.56523pt too wide) in paragraph at lines 353--354
  []
 
 [19] [20]
-<figures/shearedllama.pdf, id=1065, 389.455pt x 266.9975pt>
+<figures/shearedllama.pdf, id=1048, 389.455pt x 266.9975pt>
 File: figures/shearedllama.pdf Graphic file (type pdf)
 <use figures/shearedllama.pdf>
 Package pdftex.def Info: figures/shearedllama.pdf  used on input line 426.
@@ -2469,20 +2469,20 @@ Overfull \hbox (1.56523pt too wide) in paragraph at lines 521--522
  []
 
 [22 <./figures/shearedllama.pdf>] [23] [24] [25] [26] [27]
-<figures/switch_transformer_figure2.pdf, id=1185, 451.6875pt x 220.825pt>
+<figures/switch_transformer_figure2.pdf, id=1168, 451.6875pt x 220.825pt>
 File: figures/switch_transformer_figure2.pdf Graphic file (type pdf)
 <use figures/switch_transformer_figure2.pdf>
 Package pdftex.def Info: figures/switch_transformer_figure2.pdf  used on input 
 line 913.
 (pdftex.def)             Requested size: 336.0pt x 164.27727pt.
  [28 <./figures/switch_transformer_figure2.pdf>]
-<figures/loss_vs_log_params.pdf, id=1263, 722.7pt x 578.16pt>
+<figures/loss_vs_log_params.pdf, id=1247, 722.7pt x 578.16pt>
 File: figures/loss_vs_log_params.pdf Graphic file (type pdf)
 <use figures/loss_vs_log_params.pdf>
 Package pdftex.def Info: figures/loss_vs_log_params.pdf  used on input line 963
 .
 (pdftex.def)             Requested size: 161.27856pt x 129.02174pt.
-<figures/perp_vs_step.pdf, id=1264, 722.7pt x 578.16pt>
+<figures/perp_vs_step.pdf, id=1248, 722.7pt x 578.16pt>
 File: figures/perp_vs_step.pdf Graphic file (type pdf)
 <use figures/perp_vs_step.pdf>
 Package pdftex.def Info: figures/perp_vs_step.pdf  used on input line 967.
@@ -2492,7 +2492,7 @@ Package pdftex.def Info: figures/perp_vs_step.pdf  used on input line 967.
 pdfTeX warning: pdflatex (file ./figures/perp_vs_step.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
 >]
-<figures/fine_grained_moe_granularity_figure3a.pdf, id=1359, 133.49875pt x 133.
+<figures/fine_grained_moe_granularity_figure3a.pdf, id=1343, 133.49875pt x 133.
 49875pt>
 File: figures/fine_grained_moe_granularity_figure3a.pdf Graphic file (type pdf)
 
@@ -2506,7 +2506,7 @@ LaTeX Font Info:    Trying to load font information for TS1+pplj on input line
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 ) [30]
 [31 <./figures/fine_grained_moe_granularity_figure3a.pdf>]
-<figures/mixtral_expert_selection_domains.pdf, id=1482, 416.55624pt x 265.99374
+<figures/mixtral_expert_selection_domains.pdf, id=1466, 416.55624pt x 265.99374
 pt>
 File: figures/mixtral_expert_selection_domains.pdf Graphic file (type pdf)
 <use figures/mixtral_expert_selection_domains.pdf>
@@ -2514,7 +2514,7 @@ Package pdftex.def Info: figures/mixtral_expert_selection_domains.pdf  used on
 input line 1088.
 (pdftex.def)             Requested size: 336.0pt x 214.56488pt.
  [32]
-<figures/nllb_moe_language_similarity_figure20.pdf, id=1502, 454.69875pt x 426.
+<figures/nllb_moe_language_similarity_figure20.pdf, id=1486, 454.69875pt x 426.
 59375pt>
 File: figures/nllb_moe_language_similarity_figure20.pdf Graphic file (type pdf)
 
@@ -2522,68 +2522,68 @@ File: figures/nllb_moe_language_similarity_figure20.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/nllb_moe_language_similarity_figure20.pdf  use
 d on input line 1114.
 (pdftex.def)             Requested size: 336.0pt x 315.2383pt.
-<figures/olmoe_unicode/copyright.png, id=1505, 170.6375pt x 193.72375pt>
+<figures/olmoe_unicode/copyright.png, id=1489, 170.6375pt x 193.72375pt>
 File: figures/olmoe_unicode/copyright.png Graphic file (type png)
 <use figures/olmoe_unicode/copyright.png>
 Package pdftex.def Info: figures/olmoe_unicode/copyright.png  used on input lin
 e 1184.
 (pdftex.def)             Requested size: 6.18121pt x 7.01999pt.
-<figures/olmoe_unicode/latin_l.png, id=1506, 60.225pt x 195.73125pt>
+<figures/olmoe_unicode/latin_l.png, id=1490, 60.225pt x 195.73125pt>
 File: figures/olmoe_unicode/latin_l.png Graphic file (type png)
 <use figures/olmoe_unicode/latin_l.png>
 Package pdftex.def Info: figures/olmoe_unicode/latin_l.png  used on input line 
 1184.
 (pdftex.def)             Requested size: 2.15955pt x 7.01999pt.
-<figures/olmoe_unicode/latin_i.png, id=1507, 41.15375pt x 249.93375pt>
+<figures/olmoe_unicode/latin_i.png, id=1491, 41.15375pt x 249.93375pt>
 File: figures/olmoe_unicode/latin_i.png Graphic file (type png)
 <use figures/olmoe_unicode/latin_i.png>
 Package pdftex.def Info: figures/olmoe_unicode/latin_i.png  used on input line 
 1184.
 (pdftex.def)             Requested size: 1.15543pt x 7.01999pt.
-<figures/olmoe_unicode/jarai_i.png, id=1508, 80.3pt x 190.7125pt>
+<figures/olmoe_unicode/jarai_i.png, id=1492, 80.3pt x 190.7125pt>
 File: figures/olmoe_unicode/jarai_i.png Graphic file (type png)
 <use figures/olmoe_unicode/jarai_i.png>
 Package pdftex.def Info: figures/olmoe_unicode/jarai_i.png  used on input line 
 1184.
 (pdftex.def)             Requested size: 2.95537pt x 7.01999pt.
-<figures/olmoe_unicode/devanagari_virama.png, id=1509, 125.46875pt x 196.735pt>
+<figures/olmoe_unicode/devanagari_virama.png, id=1493, 125.46875pt x 196.735pt>
 
 File: figures/olmoe_unicode/devanagari_virama.png Graphic file (type png)
 <use figures/olmoe_unicode/devanagari_virama.png>
 Package pdftex.def Info: figures/olmoe_unicode/devanagari_virama.png  used on i
 nput line 1184.
 (pdftex.def)             Requested size: 4.47609pt x 7.01999pt.
-<figures/olmoe_unicode/devanagari_e.png, id=1510, 137.51375pt x 207.77625pt>
+<figures/olmoe_unicode/devanagari_e.png, id=1494, 137.51375pt x 207.77625pt>
 File: figures/olmoe_unicode/devanagari_e.png Graphic file (type png)
 <use figures/olmoe_unicode/devanagari_e.png>
 Package pdftex.def Info: figures/olmoe_unicode/devanagari_e.png  used on input 
 line 1184.
 (pdftex.def)             Requested size: 4.6456pt x 7.01999pt.
-<figures/olmoe_unicode/devanagari_ka.png, id=1511, 184.69pt x 164.615pt>
+<figures/olmoe_unicode/devanagari_ka.png, id=1495, 184.69pt x 164.615pt>
 File: figures/olmoe_unicode/devanagari_ka.png Graphic file (type png)
 <use figures/olmoe_unicode/devanagari_ka.png>
 Package pdftex.def Info: figures/olmoe_unicode/devanagari_ka.png  used on input
  line 1184.
 (pdftex.def)             Requested size: 7.87387pt x 7.01999pt.
-<figures/olmoe_unicode/cyrillic_sha.png, id=1512, 187.70125pt x 138.5175pt>
+<figures/olmoe_unicode/cyrillic_sha.png, id=1496, 187.70125pt x 138.5175pt>
 File: figures/olmoe_unicode/cyrillic_sha.png Graphic file (type png)
 <use figures/olmoe_unicode/cyrillic_sha.png>
 Package pdftex.def Info: figures/olmoe_unicode/cyrillic_sha.png  used on input 
 line 1184.
 (pdftex.def)             Requested size: 9.51163pt x 7.01999pt.
-<figures/olmoe_unicode/cyrillic_in.png, id=1513, 286.06876pt x 138.5175pt>
+<figures/olmoe_unicode/cyrillic_in.png, id=1497, 286.06876pt x 138.5175pt>
 File: figures/olmoe_unicode/cyrillic_in.png Graphic file (type png)
 <use figures/olmoe_unicode/cyrillic_in.png>
 Package pdftex.def Info: figures/olmoe_unicode/cyrillic_in.png  used on input l
 ine 1184.
 (pdftex.def)             Requested size: 14.49634pt x 7.01999pt.
-<figures/olmoe_unicode/cyrillic_a.png, id=1514, 112.42pt x 143.53625pt>
+<figures/olmoe_unicode/cyrillic_a.png, id=1498, 112.42pt x 143.53625pt>
 File: figures/olmoe_unicode/cyrillic_a.png Graphic file (type png)
 <use figures/olmoe_unicode/cyrillic_a.png>
 Package pdftex.def Info: figures/olmoe_unicode/cyrillic_a.png  used on input li
 ne 1184.
 (pdftex.def)             Requested size: 5.49782pt x 7.01999pt.
-<figures/olmoe_unicode/slovak_l.png, id=1515, 66.2475pt x 195.73125pt>
+<figures/olmoe_unicode/slovak_l.png, id=1499, 66.2475pt x 195.73125pt>
 File: figures/olmoe_unicode/slovak_l.png Graphic file (type png)
 <use figures/olmoe_unicode/slovak_l.png>
 Package pdftex.def Info: figures/olmoe_unicode/slovak_l.png  used on input line
@@ -2594,31 +2594,31 @@ File: figures/olmoe_unicode/copyright.png Graphic file (type png)
 Package pdftex.def Info: figures/olmoe_unicode/copyright.png  used on input lin
 e 1184.
 (pdftex.def)             Requested size: 6.18121pt x 7.01999pt.
-<figures/olmoe_unicode/persian_j.png, id=1516, 83.31125pt x 221.82875pt>
+<figures/olmoe_unicode/persian_j.png, id=1500, 83.31125pt x 221.82875pt>
 File: figures/olmoe_unicode/persian_j.png Graphic file (type png)
 <use figures/olmoe_unicode/persian_j.png>
 Package pdftex.def Info: figures/olmoe_unicode/persian_j.png  used on input lin
 e 1184.
 (pdftex.def)             Requested size: 2.63524pt x 7.01999pt.
-<figures/olmoe_unicode/dutch_ij.png, id=1517, 94.3525pt x 251.94125pt>
+<figures/olmoe_unicode/dutch_ij.png, id=1501, 94.3525pt x 251.94125pt>
 File: figures/olmoe_unicode/dutch_ij.png Graphic file (type png)
 <use figures/olmoe_unicode/dutch_ij.png>
 Package pdftex.def Info: figures/olmoe_unicode/dutch_ij.png  used on input line
  1184.
 (pdftex.def)             Requested size: 2.62889pt x 7.01999pt.
-<figures/olmoe_unicode/chinese_dot.png, id=1518, 79.29625pt x 79.29625pt>
+<figures/olmoe_unicode/chinese_dot.png, id=1502, 79.29625pt x 79.29625pt>
 File: figures/olmoe_unicode/chinese_dot.png Graphic file (type png)
 <use figures/olmoe_unicode/chinese_dot.png>
 Package pdftex.def Info: figures/olmoe_unicode/chinese_dot.png  used on input l
 ine 1184.
 (pdftex.def)             Requested size: 7.01898pt x 7.01999pt.
-<figures/olmoe_unicode/japanese_no.png, id=1519, 211.79124pt x 192.72pt>
+<figures/olmoe_unicode/japanese_no.png, id=1503, 211.79124pt x 192.72pt>
 File: figures/olmoe_unicode/japanese_no.png Graphic file (type png)
 <use figures/olmoe_unicode/japanese_no.png>
 Package pdftex.def Info: figures/olmoe_unicode/japanese_no.png  used on input l
 ine 1184.
 (pdftex.def)             Requested size: 7.71399pt x 7.01999pt.
-<figures/olmoe_unicode/devanagari_ra.png, id=1520, 101.37875pt x 164.615pt>
+<figures/olmoe_unicode/devanagari_ra.png, id=1504, 101.37875pt x 164.615pt>
 File: figures/olmoe_unicode/devanagari_ra.png Graphic file (type png)
 <use figures/olmoe_unicode/devanagari_ra.png>
 Package pdftex.def Info: figures/olmoe_unicode/devanagari_ra.png  used on input
@@ -2634,7 +2634,7 @@ File: figures/olmoe_unicode/devanagari_virama.png Graphic file (type png)
 Package pdftex.def Info: figures/olmoe_unicode/devanagari_virama.png  used on i
 nput line 1184.
 (pdftex.def)             Requested size: 4.47609pt x 7.01999pt.
-<figures/olmoe_unicode/devanagari_la.png, id=1521, 177.66376pt x 168.63pt>
+<figures/olmoe_unicode/devanagari_la.png, id=1505, 177.66376pt x 168.63pt>
 File: figures/olmoe_unicode/devanagari_la.png Graphic file (type png)
 <use figures/olmoe_unicode/devanagari_la.png>
 Package pdftex.def Info: figures/olmoe_unicode/devanagari_la.png  used on input
@@ -2693,14 +2693,14 @@ Underfull \hbox (badness 4543) in paragraph at lines 1184--1184
  []
 
 [33 <./figures/mixtral_expert_selection_domains.pdf>]
-<figures/longcat_flash_architecture.pdf, id=1616, 328.22626pt x 188.705pt>
+<figures/longcat_flash_architecture.pdf, id=1600, 328.22626pt x 188.705pt>
 File: figures/longcat_flash_architecture.pdf Graphic file (type pdf)
 <use figures/longcat_flash_architecture.pdf>
 Package pdftex.def Info: figures/longcat_flash_architecture.pdf  used on input 
 line 1237.
 (pdftex.def)             Requested size: 336.0pt x 193.17624pt.
  [34 <./figures/nllb_moe_language_similarity_figure20.pdf>]
-<figures/key_value_memory_layer.pdf, id=1679, 380.42125pt x 121.45375pt>
+<figures/key_value_memory_layer.pdf, id=1663, 380.42125pt x 121.45375pt>
 File: figures/key_value_memory_layer.pdf Graphic file (type pdf)
 <use figures/key_value_memory_layer.pdf>
 Package pdftex.def Info: figures/key_value_memory_layer.pdf  used on input line
@@ -2722,7 +2722,7 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
 LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
 (Font)              scaled to size 8.50006pt on input line 1382.
-<figures/ngram_embedding_layer.pdf, id=1849, 696.6025pt x 435.6275pt>
+<figures/ngram_embedding_layer.pdf, id=1833, 696.6025pt x 435.6275pt>
 File: figures/ngram_embedding_layer.pdf Graphic file (type pdf)
 <use figures/ngram_embedding_layer.pdf>
 Package pdftex.def Info: figures/ngram_embedding_layer.pdf  used on input line 
@@ -2730,13 +2730,13 @@ Package pdftex.def Info: figures/ngram_embedding_layer.pdf  used on input line
 (pdftex.def)             Requested size: 336.0pt x 210.12248pt.
  [38]
 [39] [40 <./figures/ngram_embedding_layer.pdf>]
-<figures/mrl_figure1.pdf, id=1949, 286.671pt x 138.5175pt>
+<figures/mrl_figure1.pdf, id=1933, 286.671pt x 138.5175pt>
 File: figures/mrl_figure1.pdf Graphic file (type pdf)
 <use figures/mrl_figure1.pdf>
 Package pdftex.def Info: figures/mrl_figure1.pdf  used on input line 1527.
 (pdftex.def)             Requested size: 336.0pt x 162.3607pt.
  [41]
-<figures/matformer_figure1.pdf, id=1971, 554.07pt x 247.92625pt>
+<figures/matformer_figure1.pdf, id=1954, 554.07pt x 247.92625pt>
 File: figures/matformer_figure1.pdf Graphic file (type pdf)
 <use figures/matformer_figure1.pdf>
 Package pdftex.def Info: figures/matformer_figure1.pdf  used on input line 1557
@@ -2760,7 +2760,7 @@ LaTeX Warning: Marginpar on page 42 moved.
 
  (./Chapters/Chapter02.tex
 Chapter 3.
-<papers/lillama/overview.pdf, id=2162, 4386.3875pt x 3926.67pt>
+<papers/lillama/overview.pdf, id=2146, 4386.3875pt x 3926.67pt>
 File: papers/lillama/overview.pdf Graphic file (type pdf)
 <use papers/lillama/overview.pdf>
 Package pdftex.def Info: papers/lillama/overview.pdf  used on input line 9.
@@ -2778,7 +2778,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
  <./papers/lillama/overview.pdf>] [48] [49]
-<papers/lillama/stablerank_40p.pdf, id=2595, 867.24pt x 433.62pt>
+<papers/lillama/stablerank_40p.pdf, id=2579, 867.24pt x 433.62pt>
 File: papers/lillama/stablerank_40p.pdf Graphic file (type pdf)
 <use papers/lillama/stablerank_40p.pdf>
 Package pdftex.def Info: papers/lillama/stablerank_40p.pdf  used on input line 
@@ -2795,17 +2795,17 @@ ns-former
  []
 
 [50] [51 <./papers/lillama/stablerank_40p.pdf>]
-<papers/lillama/Teacher.pdf, id=2617, 775.89874pt x 1261.71375pt>
+<papers/lillama/Teacher.pdf, id=2601, 775.89874pt x 1261.71375pt>
 File: papers/lillama/Teacher.pdf Graphic file (type pdf)
 <use papers/lillama/Teacher.pdf>
 Package pdftex.def Info: papers/lillama/Teacher.pdf  used on input line 116.
 (pdftex.def)             Requested size: 100.80103pt x 163.91302pt.
-<papers/lillama/Student.pdf, id=2618, 775.89874pt x 1254.6875pt>
+<papers/lillama/Student.pdf, id=2602, 775.89874pt x 1254.6875pt>
 File: papers/lillama/Student.pdf Graphic file (type pdf)
 <use papers/lillama/Student.pdf>
 Package pdftex.def Info: papers/lillama/Student.pdf  used on input line 118.
 (pdftex.def)             Requested size: 100.80103pt x 163.00023pt.
-<papers/lillama/Teacher+Student.pdf, id=2619, 783.92876pt x 1274.7625pt>
+<papers/lillama/Teacher+Student.pdf, id=2603, 783.92876pt x 1274.7625pt>
 File: papers/lillama/Teacher+Student.pdf Graphic file (type pdf)
 <use papers/lillama/Teacher+Student.pdf>
 Package pdftex.def Info: papers/lillama/Teacher+Student.pdf  used on input line
@@ -2813,36 +2813,47 @@ Package pdftex.def Info: papers/lillama/Teacher+Student.pdf  used on input line
 (pdftex.def)             Requested size: 100.80103pt x 163.89651pt.
  [52] [53 <./papers/lillama/Teacher.pdf> <./papers/lillama/Student.pdf> <./pape
 rs/lillama/Teacher+Student.pdf>] [54]
-<papers/lillama/strategies.pdf, id=2660, 4842.09pt x 4103.23885pt>
+<papers/lillama/strategies.pdf, id=2644, 4842.09pt x 4103.23885pt>
 File: papers/lillama/strategies.pdf Graphic file (type pdf)
 <use papers/lillama/strategies.pdf>
 Package pdftex.def Info: papers/lillama/strategies.pdf  used on input line 181.
 
 (pdftex.def)             Requested size: 336.0pt x 284.68904pt.
  [55 <./papers/lillama/strategies.pdf>]
-<papers/lillama/pseudo-code.pdf, id=3156, 476.62904pt x 441.89984pt>
+<papers/lillama/pseudo-code.pdf, id=3141, 476.62904pt x 441.89984pt>
 File: papers/lillama/pseudo-code.pdf Graphic file (type pdf)
 <use papers/lillama/pseudo-code.pdf>
 Package pdftex.def Info: papers/lillama/pseudo-code.pdf  used on input line 223
 .
 (pdftex.def)             Requested size: 336.0pt x 311.5192pt.
- [56] [57 <./papers/lillama/pseudo-code.pdf>] [58]
-Overfull \hbox (20.17035pt too wide) in paragraph at lines 316--338
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[56] [57 <./papers/lillama/pseudo-code.pdf>]
+Overfull \hbox (4.47368pt too wide) in paragraph at lines 243--265
+[] []\T1/pplj/m/sc/10.95/80ls (-20) eval-u-a-tion.[] \T1/pplj/m/n/10.95 (-20) T
+o mea-sure in-fer-ence speed, we eval-u-ate \T1/pplj/m/it/10.95 (-20) pre-fill 
+through-
+ []
+
+[58]
+Overfull \hbox (20.17035pt too wide) in paragraph at lines 314--336
 [][] 
  []
 
 
-Overfull \hbox (20.15923pt too wide) in paragraph at lines 343--355
+Overfull \hbox (20.15923pt too wide) in paragraph at lines 341--353
 [][] 
  []
 
 
-Overfull \hbox (20.15776pt too wide) in paragraph at lines 360--377
+Overfull \hbox (20.15776pt too wide) in paragraph at lines 358--375
 [][] 
  []
 
 [59]
-Overfull \hbox (6.72385pt too wide) in paragraph at lines 398--414
+Overfull \hbox (6.72385pt too wide) in paragraph at lines 396--412
  [][] 
  []
 
@@ -2850,23 +2861,23 @@ Overfull \hbox (6.72385pt too wide) in paragraph at lines 398--414
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [60] [61]
-<papers/lillama/rank_acc-1.pdf, id=3289, 433.62pt x 397.485pt>
+<papers/lillama/rank_acc-1.pdf, id=3273, 433.62pt x 397.485pt>
 File: papers/lillama/rank_acc-1.pdf Graphic file (type pdf)
 <use papers/lillama/rank_acc-1.pdf>
-Package pdftex.def Info: papers/lillama/rank_acc-1.pdf  used on input line 475.
+Package pdftex.def Info: papers/lillama/rank_acc-1.pdf  used on input line 473.
 
 (pdftex.def)             Requested size: 336.0pt x 308.01736pt.
-<papers/lillama/w_wo_svd-2.pdf, id=3292, 867.24pt x 433.62pt>
+<papers/lillama/w_wo_svd-2.pdf, id=3276, 867.24pt x 433.62pt>
 File: papers/lillama/w_wo_svd-2.pdf Graphic file (type pdf)
 <use papers/lillama/w_wo_svd-2.pdf>
-Package pdftex.def Info: papers/lillama/w_wo_svd-2.pdf  used on input line 482.
+Package pdftex.def Info: papers/lillama/w_wo_svd-2.pdf  used on input line 480.
 
 (pdftex.def)             Requested size: 336.0pt x 167.99954pt.
-<papers/lillama/losses_convergence.pdf, id=3293, 1300.86pt x 433.62pt>
+<papers/lillama/losses_convergence.pdf, id=3277, 1300.86pt x 433.62pt>
 File: papers/lillama/losses_convergence.pdf Graphic file (type pdf)
 <use papers/lillama/losses_convergence.pdf>
 Package pdftex.def Info: papers/lillama/losses_convergence.pdf  used on input l
-ine 494.
+ine 492.
 (pdftex.def)             Requested size: 336.0pt x 111.99748pt.
 
 
@@ -2875,99 +2886,106 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[62] [63 <./papers/lillama/rank_acc-1.pdf>] [64 <./papers/lillama/w_wo_svd-2.pd
-f> <./papers/lillama/losses_convergence.pdf>] [65]
+[62]
+Overfull \vbox (5.72223pt too high) has occurred while \output is active []
+
+
+[63 <./papers/lillama/rank_acc-1.pdf>] [64 <./papers/lillama/w_wo_svd-2.pdf> <.
+/papers/lillama/losses_convergence.pdf>] [65]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [66]
-Underfull \hbox (badness 4316) in paragraph at lines 652--652
+Underfull \hbox (badness 4316) in paragraph at lines 650--650
 []|\T1/pplj/m/n/8 (+20) Steve Jobs was a young
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 652--653
+Underfull \hbox (badness 1057) in paragraph at lines 650--651
 \T1/pplj/m/n/8 (+20) duces com-put-ers, soft-ware,
  []
 
 
-Underfull \hbox (badness 5519) in paragraph at lines 652--653
+Underfull \hbox (badness 5519) in paragraph at lines 650--651
 \T1/pplj/m/n/8 (+20) also the CEO of Ap-ple,
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 652--653
+Underfull \hbox (badness 2809) in paragraph at lines 650--651
 \T1/pplj/m/n/8 (+20) and the vi-sion-ary be-hind
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 652--653
+Underfull \hbox (badness 1184) in paragraph at lines 650--651
 \T1/pplj/m/n/8 (+20) the iPhone, the iPad, and
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 652--653
+Underfull \hbox (badness 1859) in paragraph at lines 650--651
 \T1/pplj/m/n/8 (+20) the iPod. He was known
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 695--698
+Underfull \hbox (badness 1348) in paragraph at lines 693--696
 \T1/pplj/m/n/8 (+20) life, and ten-sions be-tween
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 695--698
+Underfull \hbox (badness 1028) in paragraph at lines 693--696
 \T1/pplj/m/n/8 (+20) in 1861 when Con-fed-er-ate
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 695--698
+Underfull \hbox (badness 1102) in paragraph at lines 693--696
 \T1/pplj/m/n/8 (+20) the coun-try. The war was
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 698--699
+Underfull \hbox (badness 1199) in paragraph at lines 696--697
 \T1/pplj/m/n/8 (+20) also known as the Union,
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 698--699
+Underfull \hbox (badness 1210) in paragraph at lines 696--697
 \T1/pplj/m/n/8 (+20) South-ern states wanted to
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 704--705
+Underfull \hbox (badness 1540) in paragraph at lines 702--703
 \T1/pplj/m/n/8 (+20) Procla-ma-tion? Here is the
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 706--707
+Underfull \hbox (badness 1215) in paragraph at lines 704--705
 \T1/pplj/m/n/8 (+20) be-tween the United States
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 706--707
+Underfull \hbox (badness 1728) in paragraph at lines 704--705
 \T1/pplj/m/n/8 (+20) peo-ple, wanted to abol-ish
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 708--709
+Underfull \hbox (badness 1406) in paragraph at lines 706--707
 \T1/pplj/m/n/8 (+20) the Con-fed-er-ate States de-
  []
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 708--709
+Underfull \hbox (badness 4954) in paragraph at lines 706--707
 \T1/pplj/m/n/8 (+20) the United States, which
  []
-
-
-LaTeX Warning: Reference `ssec:svdllm' on page 67 undefined on input line 719.
 
 [67] [68] [69]
 
 LaTeX Warning: Marginpar on page 70 moved.
 
-[70]) [71]
+
+Overfull \hbox (2.18637pt too wide) in paragraph at lines 755--756
+[] []\T1/pplj/m/sc/10.95/80ls (-20) com-pat-i-bil-ity with quan-ti-za-tion:[] \
+T1/pplj/m/n/10.95 (-20) Our prun-ing/compression
+ []
+
+) [70] [71]
 \openout2 = `Chapters/Chapter03.aux'.
 
  (./Chapters/Chapter03.tex
@@ -2979,7 +2997,7 @@ Chapter 4.
 
 
 ] [73]
-<papers/BaldWhisper/images/layermerging.pdf, id=3424, 988.39845pt x 679.53876pt
+<papers/BaldWhisper/images/layermerging.pdf, id=3408, 988.39845pt x 679.53876pt
 >
 File: papers/BaldWhisper/images/layermerging.pdf Graphic file (type pdf)
 <use papers/BaldWhisper/images/layermerging.pdf>
@@ -2987,7 +3005,7 @@ Package pdftex.def Info: papers/BaldWhisper/images/layermerging.pdf  used on in
 put line 26.
 (pdftex.def)             Requested size: 336.0pt x 231.00902pt.
  [74 <./papers/BaldWhisper/images/layermerging.pdf>]
-<papers/BaldWhisper/images/headshearing.pdf, id=3635, 896.05345pt x 676.29874pt
+<papers/BaldWhisper/images/headshearing.pdf, id=3619, 896.05345pt x 676.29874pt
 >
 File: papers/BaldWhisper/images/headshearing.pdf Graphic file (type pdf)
 <use papers/BaldWhisper/images/headshearing.pdf>
@@ -2995,14 +3013,14 @@ Package pdftex.def Info: papers/BaldWhisper/images/headshearing.pdf  used on in
 put line 53.
 (pdftex.def)             Requested size: 336.0pt x 253.60107pt.
  [75] [76 <./papers/BaldWhisper/images/headshearing.pdf>] [77] [78]
-<papers/BaldWhisper/images/isoloss_wer_plot.pdf, id=3990, 852.65555pt x 671.833
+<papers/BaldWhisper/images/isoloss_wer_plot.pdf, id=3974, 852.65555pt x 671.833
 15pt>
 File: papers/BaldWhisper/images/isoloss_wer_plot.pdf Graphic file (type pdf)
 <use papers/BaldWhisper/images/isoloss_wer_plot.pdf>
 Package pdftex.def Info: papers/BaldWhisper/images/isoloss_wer_plot.pdf  used o
 n input line 145.
 (pdftex.def)             Requested size: 302.39795pt x 238.27177pt.
-<papers/BaldWhisper/images/layer_similaritues.pdf, id=3992, 362.96716pt x 315.8
+<papers/BaldWhisper/images/layer_similaritues.pdf, id=3976, 362.96716pt x 315.8
 3257pt>
 File: papers/BaldWhisper/images/layer_similaritues.pdf Graphic file (type pdf)
 <use papers/BaldWhisper/images/layer_similaritues.pdf>
@@ -3010,7 +3028,7 @@ Package pdftex.def Info: papers/BaldWhisper/images/layer_similaritues.pdf  used
  on input line 155.
 (pdftex.def)             Requested size: 302.39795pt x 263.14816pt.
  [79 <./papers/BaldWhisper/images/isoloss_wer_plot.pdf>]
-<figures/baldqwen.jpg, id=4023, 1204.5pt x 866.23625pt>
+<figures/baldqwen.jpg, id=4007, 1204.5pt x 866.23625pt>
 File: figures/baldqwen.jpg Graphic file (type jpg)
 <use figures/baldqwen.jpg>
 Package pdftex.def Info: figures/baldqwen.jpg  used on input line 207.
@@ -3037,7 +3055,7 @@ der et al., 2019[][]; [][][]Baevski
  []
 
 [86]
-<papers/wolof_speech_lm/images/speech-pipeline.pdf, id=4127, 607.26875pt x 424.
+<papers/wolof_speech_lm/images/speech-pipeline.pdf, id=4110, 607.26875pt x 424.
 86002pt>
 File: papers/wolof_speech_lm/images/speech-pipeline.pdf Graphic file (type pdf)
 
@@ -3046,7 +3064,7 @@ Package pdftex.def Info: papers/wolof_speech_lm/images/speech-pipeline.pdf  use
 d on input line 52.
 (pdftex.def)             Requested size: 336.0pt x 235.07402pt.
  [87 <./papers/wolof_speech_lm/images/speech-pipeline.pdf>] [88] [89]
-<papers/wolof_speech_lm/images/oolel_speech.pdf, id=4460, 531.00145pt x 512.802
+<papers/wolof_speech_lm/images/oolel_speech.pdf, id=4444, 531.00145pt x 512.802
 17pt>
 File: papers/wolof_speech_lm/images/oolel_speech.pdf Graphic file (type pdf)
 <use papers/wolof_speech_lm/images/oolel_speech.pdf>
@@ -3055,7 +3073,7 @@ n input line 133.
 (pdftex.def)             Requested size: 336.0pt x 324.48335pt.
 
 [90 <./papers/wolof_speech_lm/images/oolel_speech.pdf>] [91]
-<papers/MRL/images/pipeline.pdf, id=4740, 1171.37625pt x 524.96124pt>
+<papers/MRL/images/pipeline.pdf, id=4724, 1171.37625pt x 524.96124pt>
 File: papers/MRL/images/pipeline.pdf Graphic file (type pdf)
 <use papers/MRL/images/pipeline.pdf>
 Package pdftex.def Info: papers/MRL/images/pipeline.pdf  used on input line 198
@@ -3068,25 +3086,25 @@ We train one prompted
  []
 
 [93 <./papers/MRL/images/pipeline.pdf>]
-<papers/MRL/images/models.pdf, id=5050, 2432.08624pt x 1685.29625pt>
+<papers/MRL/images/models.pdf, id=5033, 2432.08624pt x 1685.29625pt>
 File: papers/MRL/images/models.pdf Graphic file (type pdf)
 <use papers/MRL/images/models.pdf>
 Package pdftex.def Info: papers/MRL/images/models.pdf  used on input line 237.
 (pdftex.def)             Requested size: 336.0pt x 232.8283pt.
  [94] [95 <./papers/MRL/images/models.pdf>] [96] [97] [98]
-<papers/MRL/images/energy_evolution.pdf, id=5236, 867.24pt x 578.16pt>
+<papers/MRL/images/energy_evolution.pdf, id=5220, 867.24pt x 578.16pt>
 File: papers/MRL/images/energy_evolution.pdf Graphic file (type pdf)
 <use papers/MRL/images/energy_evolution.pdf>
 Package pdftex.def Info: papers/MRL/images/energy_evolution.pdf  used on input 
 line 383.
 (pdftex.def)             Requested size: 268.80103pt x 179.20128pt.
-<papers/MRL/images/energy_100p.pdf, id=5237, 650.43pt x 578.16pt>
+<papers/MRL/images/energy_100p.pdf, id=5221, 650.43pt x 578.16pt>
 File: papers/MRL/images/energy_100p.pdf Graphic file (type pdf)
 <use papers/MRL/images/energy_100p.pdf>
 Package pdftex.def Info: papers/MRL/images/energy_100p.pdf  used on input line 
 390.
 (pdftex.def)             Requested size: 268.80103pt x 238.93504pt.
-<papers/MRL/images/recall_vs_nshot.pdf, id=5238, 578.16pt x 578.16pt>
+<papers/MRL/images/recall_vs_nshot.pdf, id=5222, 578.16pt x 578.16pt>
 File: papers/MRL/images/recall_vs_nshot.pdf Graphic file (type pdf)
 <use papers/MRL/images/recall_vs_nshot.pdf>
 Package pdftex.def Info: papers/MRL/images/recall_vs_nshot.pdf  used on input l
@@ -3094,7 +3112,7 @@ ine 397.
 (pdftex.def)             Requested size: 268.80103pt x 268.7975pt.
  [99 <./papers/MRL/images/energy_evolution.pdf> <./papers/MRL/images/energy_100
 p.pdf>] [100 <./papers/MRL/images/recall_vs_nshot.pdf>]
-<papers/MRL/images/costs.pdf, id=5272, 1734.48pt x 578.16pt>
+<papers/MRL/images/costs.pdf, id=5256, 1734.48pt x 578.16pt>
 File: papers/MRL/images/costs.pdf Graphic file (type pdf)
 <use papers/MRL/images/costs.pdf>
 Package pdftex.def Info: papers/MRL/images/costs.pdf  used on input line 426.
@@ -3120,14 +3138,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 PGFPlots: reading {papers/zon/data/moe_width_ratio99.csv}
  [107{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.e
 nc}] [108] [109] [110] [111] [112]
-<papers/zon/figures/figs/sparsity_rampup.pdf, id=5422, 296.83649pt x 210.21599p
+<papers/zon/figures/figs/sparsity_rampup.pdf, id=5405, 296.83649pt x 210.21599p
 t>
 File: papers/zon/figures/figs/sparsity_rampup.pdf Graphic file (type pdf)
 <use papers/zon/figures/figs/sparsity_rampup.pdf>
 Package pdftex.def Info: papers/zon/figures/figs/sparsity_rampup.pdf  used on i
 nput line 648.
 (pdftex.def)             Requested size: 161.27856pt x 114.2174pt.
-<papers/zon/figures/figs/expected_sparsity.pdf, id=5423, 296.97765pt x 210.2159
+<papers/zon/figures/figs/expected_sparsity.pdf, id=5406, 296.97765pt x 210.2159
 9pt>
 File: papers/zon/figures/figs/expected_sparsity.pdf Graphic file (type pdf)
 <use papers/zon/figures/figs/expected_sparsity.pdf>
@@ -3243,13 +3261,13 @@ Overfull \hbox (37.85818pt too wide) in paragraph at lines 18--18
 plj/m/it/10.95 (-20) arXiv preprint arXiv:2402.11187\T1/pplj/m/n/10.95 (-20) .
  []
 
-[138]
+
 Overfull \hbox (9.1227pt too wide) in paragraph at lines 18--18
 \T1/pplj/m/n/10.95 (-20) Vol. 235. Pro-ceed-ings of Ma-chine Learn-ing Re-searc
 h. PMLR, pp. 57101^^U
  []
 
-
+[138]
 Overfull \hbox (48.22662pt too wide) in paragraph at lines 18--18
 [][]\T1/pplj/m/n/10.95 (-20) Zhang, Biao, Lixin Chen, Tong Liu, and Bo Zheng (N
 ov. 2025). ^^P  SMEC:Rethinking
@@ -3555,19 +3573,16 @@ Chapters/ConclusionAndFutureWork.tex
 FrontBackmatter/Bibliography.tex
  ***********
 
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 \openout1 = `ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 67051 strings out of 467525
- 1539005 string characters out of 5418983
- 3092218 words of memory out of 5000000
- 92460 multiletter control sequences out of 15000+600000
- 856709 words of font info for 1442 fonts, out of 8000000 for 9000
+ 67033 strings out of 467525
+ 1538681 string characters out of 5418983
+ 3092560 words of memory out of 5000000
+ 92445 multiletter control sequences out of 15000+600000
+ 856780 words of font info for 1443 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,24n,134p,11216b,3548s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -3598,10 +3613,10 @@ ic/cm-super/sfss0800.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public
 tino/uplb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
 fb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on ClassicThesis.pdf (160 pages, 4520694 bytes).
+Output written on ClassicThesis.pdf (160 pages, 4520312 bytes).
 PDF statistics:
- 6574 PDF objects out of 7423 (max. 8388607)
- 4473 compressed objects within 45 object streams
- 775 named destinations out of 1000 (max. 500000)
- 223672 words of extra memory for PDF output out of 266212 (max. 10000000)
+ 6533 PDF objects out of 7423 (max. 8388607)
+ 4432 compressed objects within 45 object streams
+ 771 named destinations out of 1000 (max. 500000)
+ 223608 words of extra memory for PDF output out of 266212 (max. 10000000)
 

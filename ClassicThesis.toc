@@ -50,70 +50,67 @@
 \contentsline {subsection}{\numberline {3.4.2}{Beyond Teacher-only Activations.}}{54}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}{Module-wise Distillation.}}{54}{subsection.3.4.3}%
 \contentsline {section}{\numberline {3.5}{Fast and Memory-Efficient Compression}}{55}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}{Uniform Weights Compression}}{55}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}{Top Layers First Compression}}{56}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}{Bottom Layers First Compression}}{56}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}{Ease of Implementation}}{57}{subsection.3.5.4}%
+\contentsline {paragraph}{{Uniform Weights Compression}}{55}{paragraph*.39}%
+\contentsline {paragraph}{{Top Layers First Compression}}{56}{paragraph*.40}%
+\contentsline {paragraph}{{Bottom Layers First Compression}}{56}{paragraph*.41}%
+\contentsline {subsection}{\numberline {3.5.1}{Ease of Implementation}}{56}{subsection.3.5.1}%
 \contentsline {section}{\numberline {3.6}{Experiments on Transformers}}{57}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}{Setup}}{57}{subsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.1.1}{Models.}}{57}{subsubsection.3.6.1.1}%
-\contentsline {subsubsection}{\numberline {3.6.1.2}{Data.}}{57}{subsubsection.3.6.1.2}%
-\contentsline {subsubsection}{\numberline {3.6.1.3}{Implementation Details.}}{58}{subsubsection.3.6.1.3}%
-\contentsline {subsubsection}{\numberline {3.6.1.4}{Evaluation.}}{58}{subsubsection.3.6.1.4}%
+\contentsline {paragraph}{{Models.}}{57}{paragraph*.44}%
+\contentsline {paragraph}{{Data.}}{57}{paragraph*.45}%
+\contentsline {paragraph}{{Implementation Details.}}{57}{paragraph*.46}%
+\contentsline {paragraph}{{Evaluation.}}{58}{paragraph*.47}%
 \contentsline {subsection}{\numberline {3.6.2}{Results}}{58}{subsection.3.6.2}%
-\contentsline {paragraph}{{Zero-shot evaluation under different compression ratios.}}{58}{paragraph*.42}%
-\contentsline {paragraph}{{Low-rank models are lighter and faster.}}{58}{paragraph*.43}%
-\contentsline {paragraph}{{Our approach can efficiently create small language models.}}{59}{paragraph*.44}%
-\contentsline {paragraph}{{Compressed models recover well with fine-tuning.}}{59}{paragraph*.45}%
+\contentsline {paragraph}{{Zero-shot evaluation under different compression ratios.}}{58}{paragraph*.49}%
+\contentsline {paragraph}{{Low-rank models are lighter and faster.}}{59}{paragraph*.50}%
+\contentsline {paragraph}{{Our approach can efficiently create small language models.}}{59}{paragraph*.51}%
+\contentsline {paragraph}{{Compressed models recover well with fine-tuning.}}{59}{paragraph*.52}%
 \contentsline {section}{\numberline {3.7}{Other Architectures and Modalities}}{59}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}{Mamba Architecture}}{59}{subsection.3.7.1}%
-\contentsline {paragraph}{{Method.}}{60}{paragraph*.50}%
-\contentsline {paragraph}{{Results.}}{60}{paragraph*.51}%
+\contentsline {subsection}{\numberline {3.7.1}{Mamba Architecture}}{60}{subsection.3.7.1}%
+\contentsline {paragraph}{{Method.}}{60}{paragraph*.57}%
+\contentsline {paragraph}{{Results.}}{60}{paragraph*.58}%
 \contentsline {subsection}{\numberline {3.7.2}{Speech modality: Whisper}}{61}{subsection.3.7.2}%
-\contentsline {paragraph}{{Method.}}{61}{paragraph*.54}%
-\contentsline {paragraph}{{Data.}}{62}{paragraph*.55}%
-\contentsline {paragraph}{{Results.}}{62}{paragraph*.56}%
+\contentsline {paragraph}{{Method.}}{61}{paragraph*.61}%
+\contentsline {paragraph}{{Data.}}{62}{paragraph*.62}%
+\contentsline {paragraph}{{Results.}}{62}{paragraph*.63}%
 \contentsline {section}{\numberline {3.8}{Analysis}}{62}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}{Which Distillation Loss Should Be Used?}}{63}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}{How Should the Rank Be Chosen?}}{65}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.1}{Which Distillation Loss Should Be Used?}}{62}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}{How Should the Rank Be Chosen?}}{64}{subsection.3.8.2}%
 \contentsline {subsection}{\numberline {3.8.3}{Is SVD initialization necessary?}}{65}{subsection.3.8.3}%
 \contentsline {subsection}{\numberline {3.8.4}{Cost.}}{65}{subsection.3.8.4}%
-\contentsline {paragraph}{{Differences in running time and memory.}}{66}{paragraph*.63}%
-\contentsline {paragraph}{{Differences in performance.}}{66}{paragraph*.65}%
+\contentsline {paragraph}{{Differences in running time and memory.}}{65}{paragraph*.70}%
+\contentsline {paragraph}{{Differences in performance.}}{66}{paragraph*.72}%
 \contentsline {subsection}{\numberline {3.8.5}{Examples of generated texts}}{66}{subsection.3.8.5}%
 \contentsline {subsection}{\numberline {3.8.6}{Comparisons.}}{67}{subsection.3.8.6}%
 \contentsline {subsection}{\numberline {3.8.7}{Can this approach work for low-resource and under-represented languages?}}{67}{subsection.3.8.7}%
 \contentsline {section}{\numberline {3.9}{Limitations}}{70}{section.3.9}%
-\contentsline {subsection}{\numberline {3.9.1}{Compatibility with quantization:}}{70}{subsection.3.9.1}%
-\contentsline {subsection}{\numberline {3.9.2}{Compromise between specificity and generality:}}{71}{subsection.3.9.2}%
-\contentsline {section}{\numberline {3.10}{Conclusion}}{71}{section.3.10}%
-\contentsline {section}{\numberline {3.11}{Open Questions}}{71}{section.3.11}%
-\contentsline {subsection}{\numberline {3.11.1}{If the weights are full rank, why still compress them?}}{71}{subsection.3.11.1}%
-\contentsline {subsection}{\numberline {3.11.2}{Can an LLM be pre-trained from scratch with low-rank weights?}}{71}{subsection.3.11.2}%
+\contentsline {paragraph}{{Compatibility with quantization:}}{70}{paragraph*.78}%
+\contentsline {paragraph}{{Compromise between specificity and generality:}}{70}{paragraph*.79}%
+\contentsline {section}{\numberline {3.10}{Conclusion}}{70}{section.3.10}%
 \contentsline {chapter}{\numberline {4}{BaldWhisper}}{73}{chapter.4}%
 \contentsline {section}{\numberline {4.1}{Introduction}}{73}{section.4.1}%
-\contentsline {paragraph}{{Deep encoder, shallow decoder.}}{74}{paragraph*.72}%
-\contentsline {paragraph}{{Distil-Whisper.}}{74}{paragraph*.73}%
-\contentsline {paragraph}{{Model merging.}}{75}{paragraph*.74}%
-\contentsline {paragraph}{{Vocabulary pruning.}}{75}{paragraph*.75}%
-\contentsline {paragraph}{{Low-rank decomposition.}}{75}{paragraph*.76}%
+\contentsline {paragraph}{{Deep encoder, shallow decoder.}}{74}{paragraph*.81}%
+\contentsline {paragraph}{{Distil-Whisper.}}{74}{paragraph*.82}%
+\contentsline {paragraph}{{Model merging.}}{75}{paragraph*.83}%
+\contentsline {paragraph}{{Vocabulary pruning.}}{75}{paragraph*.84}%
+\contentsline {paragraph}{{Low-rank decomposition.}}{75}{paragraph*.85}%
 \contentsline {section}{\numberline {4.2}{BaldWhisper Approach}}{75}{section.4.2}%
-\contentsline {paragraph}{{Motivation.}}{75}{paragraph*.78}%
+\contentsline {paragraph}{{Motivation.}}{75}{paragraph*.87}%
 \contentsline {subsection}{\numberline {4.2.1}{Stage 1: Layer Merging}}{76}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}{Stage 2: Activation-Aware Embedding Decomposition}}{77}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}{Experiments}}{77}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}{Experimental Setup}}{77}{subsection.4.3.1}%
-\contentsline {paragraph}{{Data.}}{77}{paragraph*.79}%
-\contentsline {paragraph}{{Implementation details.}}{77}{paragraph*.80}%
+\contentsline {paragraph}{{Data.}}{77}{paragraph*.88}%
+\contentsline {paragraph}{{Implementation details.}}{77}{paragraph*.89}%
 \contentsline {subsection}{\numberline {4.3.2}{Results}}{78}{subsection.4.3.2}%
-\contentsline {paragraph}{{Performance.}}{78}{paragraph*.82}%
-\contentsline {paragraph}{{Speedup.}}{78}{paragraph*.83}%
-\contentsline {paragraph}{{Comparison with Whisper-tiny.}}{78}{paragraph*.84}%
+\contentsline {paragraph}{{Performance.}}{78}{paragraph*.91}%
+\contentsline {paragraph}{{Speedup.}}{78}{paragraph*.92}%
+\contentsline {paragraph}{{Comparison with Whisper-tiny.}}{78}{paragraph*.93}%
 \contentsline {section}{\numberline {4.4}{Analysis}}{78}{section.4.4}%
-\contentsline {paragraph}{{How should \(\alpha \) and \(\beta \) be chosen?}}{78}{paragraph*.85}%
-\contentsline {paragraph}{{Why merge adjacent layers?}}{79}{paragraph*.87}%
-\contentsline {paragraph}{{Comparison to brute-force search.}}{79}{paragraph*.89}%
-\contentsline {paragraph}{{Confidence intervals.}}{79}{paragraph*.90}%
+\contentsline {paragraph}{{How should \(\alpha \) and \(\beta \) be chosen?}}{78}{paragraph*.94}%
+\contentsline {paragraph}{{Why merge adjacent layers?}}{79}{paragraph*.96}%
+\contentsline {paragraph}{{Comparison to brute-force search.}}{79}{paragraph*.98}%
+\contentsline {paragraph}{{Confidence intervals.}}{79}{paragraph*.99}%
 \contentsline {section}{\numberline {4.5}{Extreme Head Shearing of LLMs}}{80}{section.4.5}%
 \contentsline {section}{\numberline {4.6}{Conclusion}}{81}{section.4.6}%
 \contentsline {part}{\numberline {iii}{Activation Sparsity of Transformer Models}}{83}{part.3}%
@@ -135,13 +132,13 @@
 \contentsline {subsection}{\numberline {5.2.5}{Implications for Cross-modal Retrieval}}{92}{subsection.5.2.5}%
 \contentsline {section}{\numberline {5.3}{Datasets}}{92}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}{Training Datasets}}{92}{subsection.5.3.1}%
-\contentsline {paragraph}{{Text data.}}{92}{paragraph*.100}%
-\contentsline {paragraph}{{Wolof speech queries.}}{93}{paragraph*.101}%
-\contentsline {paragraph}{{Synthetic French documents.}}{93}{paragraph*.102}%
-\contentsline {paragraph}{{Instruction-following data.}}{93}{paragraph*.103}%
+\contentsline {paragraph}{{Text data.}}{92}{paragraph*.109}%
+\contentsline {paragraph}{{Wolof speech queries.}}{93}{paragraph*.110}%
+\contentsline {paragraph}{{Synthetic French documents.}}{93}{paragraph*.111}%
+\contentsline {paragraph}{{Instruction-following data.}}{93}{paragraph*.112}%
 \contentsline {subsection}{\numberline {5.3.2}{Evaluation Datasets}}{94}{subsection.5.3.2}%
-\contentsline {paragraph}{{Fleurs-Retrieval-Eval.}}{94}{paragraph*.104}%
-\contentsline {paragraph}{{Kallaama-Retrieval-Eval.}}{94}{paragraph*.105}%
+\contentsline {paragraph}{{Fleurs-Retrieval-Eval.}}{94}{paragraph*.113}%
+\contentsline {paragraph}{{Kallaama-Retrieval-Eval.}}{94}{paragraph*.114}%
 \contentsline {section}{\numberline {5.4}{Modeling}}{94}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}{Text-only Embeddings}}{95}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}{Late Modality Fusion}}{95}{subsection.5.4.2}%
@@ -157,16 +154,16 @@
 \contentsline {subsection}{\numberline {5.6.3}{Rank of Matryoshka Dimensions}}{101}{subsection.5.6.3}%
 \contentsline {subsection}{\numberline {5.6.4}{Deployment Costs}}{101}{subsection.5.6.4}%
 \contentsline {section}{\numberline {5.7}{Limitations}}{102}{section.5.7}%
-\contentsline {paragraph}{{Synthetic data.}}{102}{paragraph*.115}%
-\contentsline {paragraph}{{Beyond Matryoshka slicing.}}{102}{paragraph*.116}%
+\contentsline {paragraph}{{Synthetic data.}}{102}{paragraph*.124}%
+\contentsline {paragraph}{{Beyond Matryoshka slicing.}}{102}{paragraph*.125}%
 \contentsline {section}{\numberline {5.8}{Conclusion}}{102}{section.5.8}%
 \contentsline {chapter}{\numberline {6}{Adaptive Neural Activity Transformer}}{103}{chapter.6}%
 \contentsline {section}{\numberline {6.1}{Introduction}}{103}{section.6.1}%
 \contentsline {section}{\numberline {6.2}{Contemplating the MLP}}{104}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}{Transformer MLPs as Key-Value Memories}}{104}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}{The Effective Dimensionality of the MLP}}{105}{subsection.6.2.2}%
-\contentsline {paragraph}{{Measuring the rank}}{105}{paragraph*.117}%
-\contentsline {paragraph}{{Results.}}{106}{paragraph*.119}%
+\contentsline {paragraph}{{Measuring the rank}}{105}{paragraph*.126}%
+\contentsline {paragraph}{{Results.}}{106}{paragraph*.128}%
 \contentsline {section}{\numberline {6.3}{Learning to Select Key-Value Pairs Adaptively}}{107}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}{ZeroNeuron Sparse Activation Gating}}{108}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}{Structured Activation Sparsity of the MLP}}{109}{subsection.6.3.2}%
@@ -175,18 +172,18 @@
 \contentsline {subsubsection}{\numberline {6.3.2.3}{On the efficiency of ZoN}}{111}{subsubsection.6.3.2.3}%
 \contentsline {section}{\numberline {6.4}{Experiments}}{111}{section.6.4}%
 \contentsline {subsection}{\numberline {6.4.1}{Experimental Setup}}{111}{subsection.6.4.1}%
-\contentsline {paragraph}{{Implementation.}}{111}{paragraph*.123}%
-\contentsline {paragraph}{{Models.}}{112}{paragraph*.125}%
-\contentsline {paragraph}{{Evaluation.}}{112}{paragraph*.126}%
+\contentsline {paragraph}{{Implementation.}}{111}{paragraph*.132}%
+\contentsline {paragraph}{{Models.}}{112}{paragraph*.134}%
+\contentsline {paragraph}{{Evaluation.}}{112}{paragraph*.135}%
 \contentsline {subsection}{\numberline {6.4.2}{Results}}{113}{subsection.6.4.2}%
 \contentsline {section}{\numberline {6.5}{Generalization to Embedding Language Models}}{116}{section.6.5}%
-\contentsline {paragraph}{{Experimental setup.}}{116}{paragraph*.130}%
-\contentsline {paragraph}{{Results.}}{116}{paragraph*.132}%
+\contentsline {paragraph}{{Experimental setup.}}{116}{paragraph*.139}%
+\contentsline {paragraph}{{Results.}}{116}{paragraph*.141}%
 \contentsline {section}{\numberline {6.6}{Conclusion}}{117}{section.6.6}%
 \contentsline {part}{\numberline {iv}{Conclusion and Future Work}}{119}{part.4}%
 \contentsline {chapter}{\numberline {7}{Overall Conclusion and Future Work}}{121}{chapter.7}%
 \contentsline {section}{\numberline {7.1}{Overall Conclusion}}{121}{section.7.1}%
 \contentsline {section}{\numberline {7.2}{Future Work}}{122}{section.7.2}%
 \vspace {\beforebibskip }
-\contentsline {chapter}{Bibliography}{125}{section*.133}%
+\contentsline {chapter}{Bibliography}{125}{section*.142}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

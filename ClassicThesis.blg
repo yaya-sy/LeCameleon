@@ -30,7 +30,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 30060 items from 5000.
+Reallocated field_info (elt_size=4) to 29920 items from 5000.
 Database file #1: ClassicThesis-blx.bib
 Database file #2: Bibliography.bib
 Database file #3: papers/MRL/custom.bib
@@ -45,45 +45,45 @@ Warning--you've exceeded 500, the entry-string-size, for entry grattafiori2024ll
 while executing--line 2728 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 179 entries,
+You've used 178 entries,
             6402 wiz_defined-function locations,
-            2160 strings with 78894 characters,
-and the built_in function-call counts, 4613844 in all, are:
-= -- 440725
-> -- 37646
-< -- 7159
-+ -- 186568
-- -- 18935
-* -- 335280
-:= -- 639580
+            2156 strings with 78715 characters,
+and the built_in function-call counts, 4604402 in all, are:
+= -- 439972
+> -- 37508
+< -- 7124
++ -- 186221
+- -- 18872
+* -- 334569
+:= -- 638418
 add.period$ -- 0
-call.type$ -- 179
-change.case$ -- 178
+call.type$ -- 178
+change.case$ -- 177
 chr.to.int$ -- 135
-cite$ -- 356
-duplicate$ -- 524103
-empty$ -- 340198
-format.name$ -- 33100
-if$ -- 854928
+cite$ -- 354
+duplicate$ -- 522958
+empty$ -- 339464
+format.name$ -- 33008
+if$ -- 853097
 int.to.chr$ -- 0
-int.to.str$ -- 482
+int.to.str$ -- 479
 missing$ -- 0
-newline$ -- 17270
-num.names$ -- 8586
-pop$ -- 101124
+newline$ -- 17228
+num.names$ -- 8545
+pop$ -- 100728
 preamble$ -- 1
-purify$ -- 7261
+purify$ -- 7243
 quote$ -- 0
-skip$ -- 47077
+skip$ -- 46878
 stack$ -- 0
-substring$ -- 841336
-swap$ -- 56045
-text.length$ -- 8233
-text.prefix$ -- 180
+substring$ -- 840070
+swap$ -- 55857
+text.length$ -- 8195
+text.prefix$ -- 179
 top$ -- 1
-type$ -- 6074
+type$ -- 6040
 warning$ -- 0
-while$ -- 84012
+while$ -- 83852
 width$ -- 0
-write$ -- 17092
+write$ -- 17051
 (There were 2 warnings)
